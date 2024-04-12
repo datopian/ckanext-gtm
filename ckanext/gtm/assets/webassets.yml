@@ -1,0 +1,14 @@
+# gtm-js:
+#   filter: rjsmin
+#   output: ckanext-gtm/%(version)s-gtm.js
+#   contents:
+#     - js/gtm.js
+#   extra:
+#     preload:
+#       - base/main
+
+# gtm-css:
+#   filter: cssrewrite
+#   output: ckanext-gtm/%(version)s-gtm.css
+#   contents:
+#     - css/gtm.css
